@@ -1,0 +1,151 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Oleo Script', cursive;
+}
+
+.user-text {
+  float: right;
+  margin-left: 0px;
+  height: 315px;
+  width: 100%
+  
+}
+
+.animate__animated.animate__fadeInUp {
+    --animate-duration: 2s;
+}
+
+.animate__animated.animate__fadeOut.animate__delay-3s {
+    --animate-duration: 1.5s;
+}
+
+.animate__animated.animate__fadeInRight {
+    --animate-duration: 2s;
+}
+
+#catch {
+    --animate-duration: 1.5s;
+}
+
+.display-4 {
+    font-size: 60px;
+    margin-left: 250px;
+    color: #f5cac3;
+    position: relative;
+    animation-name: slidein;
+    animation-duration: 2s;
+}
+
+.displaybg {
+    color: #f5cac3;
+}
+
+p {
+    /*text-align: center;*/
+    font-family: 'Raleway', sans-serif;
+}
+
+.left {
+  width: 50%;
+  float:left;
+  margin-bottom:40px;
+}
+
+.right {
+  width: 50%;
+  float:right;
+}
+
+.whole {
+  width:100%;
+}
+
+.lead {
+    font-size: 2.3vw;
+    margin-right: 15vw;
+    text-align: right;
+    margin-top: -2vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.div {
+  width: 50%;
+}
+
+button {
+  height: 4em;
+  width: 60%;
+  padding: 1.5em;
+  margin-top: 3%;
+  
+  
+  
+  /*background-color: #5f94e8; testing to see what colors look nice*/
+  background-color: #ff669e;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  transition: all 0.2s cubic-bezier(.4,0,.2,1);
+ 
+}
+.hello:hover {
+  letter-spacing: 0.8em;
+  background-color: #F08C99;
+}
+
+.hello{
+  color: white;
+}
+
+.header {
+  font-family :"Satisfy";
+  margin-top:20px;
+  margin-left: 10%;
+ font-size: 200%;
+ color: #ed80c0;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 2%;
+
+  }
+
+  to {
+    margin-left: 0%;
+
+  }
+}
+
+
+© 2020 GitHub, Inc.
